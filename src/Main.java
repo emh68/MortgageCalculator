@@ -20,7 +20,7 @@ public class Main {
 
         // Convert loan length from years to months
         System.out.print("Length of mortgage in years: ");
-        int mortgageLength = scanner.nextInt();
+        byte mortgageLength = scanner.nextByte();
         int numPayments = mortgageLength * MONTHS_IN_YEAR;
 
         // Calculate monthly mortgage payment
